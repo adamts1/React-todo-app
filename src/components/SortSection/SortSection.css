@@ -1,0 +1,46 @@
+.c-sortsection{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+    /* width: 100%; */
+  
+}
+
+.c-sortsection button{
+    margin-right: 10px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    
+    /* .c-sortsection{
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        
+        
+    } */
+    .c-sortsection{
+        position:absolute;
+        bottom:0px;
+        height:100px;
+        left:0px;
+        right:0px;
+        overflow:hidden
+    }
+    
+
+    .bold{
+        margin-top: 5px;
+    }
+
+    .button-section{
+        margin-left: 22px;
+
+    }
+    
+  }

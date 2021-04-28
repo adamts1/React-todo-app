@@ -1,0 +1,75 @@
+
+.c-rowtask{
+
+
+}
+
+tr.border_bottom td  {
+    border-bottom: 1px solid lightgrey;
+    border-top: none !important;
+    text-align: left;
+    vertical-align: 0% !important;
+    font-size: 20px;
+  
+
+  }
+
+  .check{
+      width: 10% !important;
+  }
+
+    input[type='checkbox'] {
+        width: 1.1rem;
+        height: 1.1rem;
+        margin: 0;
+        vertical-align: middle;
+        cursor: pointer;
+     }
+
+     .value{
+         margin-bottom: 10px;
+     }
+
+    
+
+      .icon{
+          text-align: center !important;
+          display: none; 
+         
+      }
+
+      #todo-table tr:hover .icon{
+        /* background: #cccccc; */
+        display: inline;
+        color: black;
+      }
+
+      .iconWarper{
+          text-align: center !important;
+      }
+
+      svg{
+        cursor: pointer;
+        float: right
+      }
+
+      .complete{
+        color: lightgrey;
+        text-decoration: line-through;
+        font-weight: normal;
+
+      }
+
+
+      @media screen and (max-width: 600px) {
+        .c-rowtask{
+          position:absolute;
+          top:120px;
+          bottom:100px;
+          left:0px;
+          right:0px;
+          overflow:auto;
+        
+        }
+
+      }
