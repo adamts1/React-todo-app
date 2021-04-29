@@ -1,7 +1,5 @@
 
 .c-rowtask{
-
-
 }
 
 tr.border_bottom td  {
@@ -39,7 +37,6 @@ tr.border_bottom td  {
       }
 
       #todo-table tr:hover .icon{
-        /* background: #cccccc; */
         display: inline;
         color: black;
       }

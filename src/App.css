@@ -3,6 +3,7 @@
 
 .App{
   font-family: 'Anton', sans-serif;
+  background-color: black !important;
 }
 
 @media screen and (max-width: 600px) {
