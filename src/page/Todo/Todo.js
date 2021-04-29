@@ -60,7 +60,7 @@ function Todo() {
           <Container>
             <Row>
             <Col lg="12" xs="6">
-              <h1>Todos1</h1>
+              <h1>Todos2</h1>
             </Col>           
             <Col lg="12"  xs="6">
               <h5>Made by Adam Tsityat</h5>
